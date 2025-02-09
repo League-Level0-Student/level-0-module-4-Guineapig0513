@@ -34,6 +34,7 @@ if(scoreDou >= 90) {
 			"⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⢿⣧⢄⣀⡀⢀⣀⣿⣿⣷⣾⣿⡄⢀⣤⣤⣾⣿⠿⠛⠛⣛⣉⣵⡿⠁⠀⠀⠀⠀⠀⠀⠀⠀\n" + 
 			"⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣾⢻⣿⣿⡶⠶⠭⣿⣿⣿⣿⠟⡠⢛⣽⣟⣤⣶⣿⣿⣿⠿⠟⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n" + 
 			"⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⢿⣿⠻⢷⣾⣿⣿⣿⣶⣶⣶⣾⣿⠟⠛⠛⠛⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀");
+	System.exit(0);
 }
 else if(scoreDou >= 75) {
 	JOptionPane.showMessageDialog(null, "YOu didnt do the worst or the best but thats okay :D! Have a dollar :)! ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n"+
@@ -67,6 +68,7 @@ else if(scoreDou >= 75) {
 			"⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢈⣷⢟⡽⢿⡿⣻⠟⣹⠟⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n" + 
 			"⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠿⠿⠴⠿⠾⠧⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n" + 
 			"⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⢀⠀⢀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀");
+System.exit(0);
 }
 JOptionPane.showMessageDialog(null, "You didnt pass but thats okay :D. Maybe next time :)! Have this smiley face for good luck for the next test :D⠀\n⠀⠀⠀⠀⠀⠀⠀⣀⣤⣶⣶⠾⠿⠿⠿⠿⠷⢶⣶⣤⣀⠀⠀⠀⠀⠀⠀⠀⠀\n" + 
 		"⠀⠀⠀⠀⠀⣠⣴⡿⠟⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⢿⣶⣄⠀⠀⠀⠀⠀\n" + 
@@ -83,5 +85,6 @@ JOptionPane.showMessageDialog(null, "You didnt pass but thats okay :D. Maybe nex
 		"⠀⠀⠀⠙⢿⣦⡀⠀⠙⠷⣦⣀⠀⠀⠀⠀⠀⠘⣿⣿⣿⠟⠁⢀⣴⡿⠋⠀⠀⠀\n" + 
 		"⠀⠀⠀⠀⠀⠙⠿⣷⣤⣀⠈⠉⠛⠓⠶⠶⠶⠟⠛⠉⣀⣤⣶⠿⠋⠀⠀⠀⠀⠀\n" + 
 		"⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⠿⠷⣶⣶⣶⣶⣶⣶⠾⠿⠟⠋⠁⠀⠀⠀⠀⠀⠀⠀");
-}
+System.exit(0);
+	}
 }
