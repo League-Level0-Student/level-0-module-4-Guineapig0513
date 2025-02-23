@@ -10,7 +10,7 @@ import processing.core.PImage;
   //1. Find an image on the Internet and drop it into the /images folder at the
      //top level of this module. It can be anything as long as it has large eyes!
  //2. Declare a variable for the image:
-     
+  
 
   
  // 3. In your setup() method, import your image using the following code:
@@ -60,10 +60,11 @@ public class GooglyEyes extends PApplet {
     	fill(255, 255, 255);
     	ellipse(218, 280, 225, 185);
     	ellipse(550, 280, 225, 185);
+    	if(mouseX > 106 && mouseX < 330 && mouseY >187 && mouseY <373) {
     	fill(0,0,0);
-    	ellipse(218,280, 55, 55);
-    	ellipse(550, 280, 55, 55);
-
+    	ellipse(mouseX,mouseY, 55, 55);
+    	ellipse(mouseX+332, mouseY, 55, 55);
+    	}
     	if(mousePressed) {
             	System.out.println(mouseX +" "+ mouseY);
             
